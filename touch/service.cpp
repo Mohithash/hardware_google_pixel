@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#define LOG_TAG "vendor.lineage.touch-service.pixel"
+#define LOG_TAG "vendor.bestrom.touch-service.pixel"
 
 #include "GloveMode.h"
 
@@ -11,7 +11,7 @@
 #include <android/binder_manager.h>
 #include <android/binder_process.h>
 
-using aidl::vendor::lineage::touch::GloveMode;
+using aidl::vendor::bestrom::touch::GloveMode;
 
 int main() {
     ABinderProcess_setThreadPoolMaxThreadCount(0);

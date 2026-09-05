@@ -4,9 +4,9 @@
 //
 
 cc_binary {
-    name: "vendor.lineage.touch-service.pixel",
-    init_rc: ["vendor.lineage.touch-service.pixel.rc"],
-    vintf_fragments: ["vendor.lineage.touch-service.pixel.xml"],
+    name: "vendor.bestrom.touch-service.pixel",
+    init_rc: ["vendor.bestrom.touch-service.pixel.rc"],
+    vintf_fragments: ["vendor.bestrom.touch-service.pixel.xml"],
     vendor: true,
     relative_install_path: "hw",
     srcs: [
@@ -18,6 +18,6 @@ cc_binary {
         "liblog",
         "libbinder_ndk",
         "libutils",
-        "vendor.lineage.touch-V1-ndk",
+        "vendor.bestrom.touch-V1-ndk",
     ],
 }
